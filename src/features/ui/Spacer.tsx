@@ -1,6 +1,6 @@
 import React from 'react';
 import { YStack } from '@src/features';
 
-export default function Spacer() {
+export function Spacer() {
   return <YStack />;
 }

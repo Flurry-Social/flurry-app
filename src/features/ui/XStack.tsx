@@ -13,7 +13,7 @@ interface IProps extends ViewProps {
     | 'space-between'
     | 'space-around'
     | 'space-evenly';
-  gap: SizeToken;
+  gap?: SizeToken;
   children?: React.ReactNode;
 }
 

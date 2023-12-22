@@ -5,7 +5,7 @@ import { Text } from '@src/features';
 
 interface IProps extends PressableProps {
   size?: 'sm' | 'md' | 'lg';
-  type?: 'primary' | 'secondary' | 'transparent';
+  type?: 'primary' | 'secondary' | 'transparent' | 'border';
   children: React.ReactNode;
 }
 
@@ -49,6 +49,11 @@ const stylesheet = createStyleSheet((theme) => ({
         },
         transparent: {
           backgroundColor: 'transparent',
+        },
+        border: {
+          backgroundColor: 'transparent',
+          borderWidth: 1,
+          borderColor: theme.colors.accent,
         },
       },
     },

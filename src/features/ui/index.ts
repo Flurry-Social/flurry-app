@@ -2,3 +2,8 @@ export * from './Button';
 export * from './XStack';
 export * from './YStack';
 export * from './Text';
+export * from './AnimatedTextInput';
+export * from './Spacer';
+export * from './TextInput';
+export * from './ViewWithOpacity';
+export * from './FullScrollView';

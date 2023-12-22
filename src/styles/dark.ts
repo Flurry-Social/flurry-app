@@ -1,4 +1,8 @@
+import { common } from '@src/styles/common';
+
 export const darkTheme = {
+  ...common,
+
   colors: {
     text: '#fff',
     secondaryText: '#fff',

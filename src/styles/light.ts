@@ -1,4 +1,8 @@
+import { common } from '@src/styles/common';
+
 export const lightTheme = {
+  ...common,
+
   colors: {
     text: '#000',
     secondaryText: '#737373',

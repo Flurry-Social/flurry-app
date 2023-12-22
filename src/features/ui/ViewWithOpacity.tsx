@@ -1,11 +1,7 @@
 import React from 'react';
 import { StyleSheet, View, ViewProps } from 'react-native';
 
-export default function ViewWithOpacity({
-  style,
-  children,
-  ...rest
-}: ViewProps) {
+export function ViewWithOpacity({ style, children, ...rest }: ViewProps) {
   return (
     <View {...rest} style={[style, styles.container]}>
       {children}
