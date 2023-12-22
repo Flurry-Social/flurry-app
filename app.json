@@ -1,6 +1,12 @@
 {
   "expo": {
     "name": "flurry",
-    "slug": "flurry"
+    "slug": "flurry",
+    "android": {
+      "package": "com.haileyok.flurry"
+    },
+    "ios": {
+      "bundleIdentifier": "com.haileyok.flurry"
+    }
   }
 }
